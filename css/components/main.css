@@ -1,20 +1,20 @@
 .main-container {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-auto-rows: 15vw;
-    grid-gap: 2vw;
-    margin: 2vw;
+    display: flex;
+    flex-wrap: wrap;
 }
 .gallery-container {
     cursor: pointer;
     position: relative;
+    width: 33%;
 }
 
 
 .gallery-item {
-width: 100%;
-height: 100%;
+width: 90%;
+height: 15em;
 position: relative;
+margin-left: 5%;
+margin-top: 5%;
 }
 .gallery-item .image {
     width: 100%;
@@ -40,3 +40,13 @@ position: relative;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+@media screen and (max-width: 992px) {
+    .gallery-container {
+      flex: 33%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .gallery-container {
+      flex: 100%;
+    }
+  }
