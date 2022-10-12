@@ -6,6 +6,7 @@
     cursor: pointer;
     position: relative;
     width: 33%;
+    
 }
 
 
@@ -15,6 +16,8 @@ height: 15em;
 position: relative;
 margin-left: 5%;
 margin-top: 5%;
+margin-bottom: 5%;
+
 }
 .gallery-item .image {
     width: 100%;

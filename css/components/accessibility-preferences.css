@@ -22,7 +22,7 @@
 }
 
 [data-darktheme='true'] .header-logo,
-[data-darktheme='true'] .footer-image {
+[data-darktheme='true'] .footer-image{
     filter: invert(1);
 }
 
