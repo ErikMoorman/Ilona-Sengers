@@ -5,6 +5,11 @@
     grid-gap: 2vw;
     margin: 2vw;
 }
+.gallery-container {
+    cursor: pointer;
+    position: relative;
+}
+
 
 .gallery-item {
 width: 100%;
@@ -22,16 +27,16 @@ position: relative;
     object-fit: cover;
     object-position: 50% 50%;
 }
-.main-container:has(img:hover) img:not(:hover) {
+.main-container:has(.gallery-item:hover) .gallery-item:not(:hover) {
     scale: .7;
     opacity: .5;
 }
-.image > img {
+.gallery-item {
     transition: scale 350ms ease, opacity 350ms linear;
 }
-.gallery-item .linkje {
+.gallery-item .heading-m {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
 }

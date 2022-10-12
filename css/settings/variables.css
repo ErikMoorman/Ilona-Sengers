@@ -14,6 +14,7 @@
     --subtle-border: var(--light-grey);
 
     --text-color: var(--black);
+    --text-color2: var(--white);
     --link-color: var(--light-blue);
     --link-visited-color: var(--dark-grey);
     --link-hover-color: var(--blue);

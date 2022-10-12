@@ -34,7 +34,6 @@ controls[1].addEventListener('click', () => changeFontSize('decrease'))
 controls[2].addEventListener('click', () => toggleAccessibilityControl('darktheme'))
 controls[3].addEventListener('click', () => toggleAccessibilityControl('grayscale'))
 controls[4].addEventListener('click', () => toggleAccessibilityControl('highcontrast'))
-controls[5].addEventListener('click', () => toggleAccessibilityControl('hideartwork'))
 
 // Toggle all menu buttons
 const menuButtons = document.querySelectorAll('.menu-button')
@@ -50,4 +49,18 @@ window.addEventListener('mouseup', (e) => {
     if (e.target.parentNode.parentNode !== accessibilityMenu &&  e.target !== menuButtons[1]) {
         menuButtons[1].classList.remove('menu-button-opened')
     }
+});
+
+var about = document.querySelector("#about");
+var gallery = document.querySelector("#gallery");
+var coming = document.querySelector("#coming");
+
+about.addEventListener("click", function(){
+	window.location.href = "./pages/about.html";
+});
+gallery.addEventListener("click", function(){
+	window.location.href = "./pages/gallery.html";
+});
+coming.addEventListener("click", function(){
+	window.location.href = "./pages/coming.html";
 });

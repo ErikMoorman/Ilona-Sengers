@@ -11,6 +11,7 @@
     --subtle-shadow: none;
     --subtle-border: var(--dark-grey);
     /* --filter-button: var(--hva-purple); */
+    --filter-button-color: #b1bac8;
     --menu-button-hover: var(--black-2);
 }
 
@@ -36,28 +37,11 @@
     filter: grayscale(1) contrast(1.5);
 }
 
-[data-hideartwork='true'] img:not(.header-logo, .footer-image),
-[data-hideartwork='true'] canvas {
-    display: none;
-}
-
 /* Check checkboxes if toggle is selected */
 [data-darktheme='true'] .accessibility-dropdown > li:nth-of-type(3) .accessibility-toggle-checkbox::after,
 [data-grayscale='true'] .accessibility-dropdown > li:nth-of-type(4) .accessibility-toggle-checkbox::after,
-[data-highcontrast='true'] .accessibility-dropdown > li:nth-of-type(5) .accessibility-toggle-checkbox::after,
-[data-hideartwork='true'] .accessibility-dropdown > li:nth-of-type(6) .accessibility-toggle-checkbox::after {
+[data-highcontrast='true'] .accessibility-dropdown > li:nth-of-type(5) .accessibility-toggle-checkbox::after
+ {
     opacity: 1;
 }
 
-/* Remove transitions & animation when reduced motion is prefered */
-@media screen and (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
-
-    *,
-    *::before,
-    *::after {
-        transition: none !important;
-    }
-}

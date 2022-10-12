@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erik Moorman</title>
+    <title>Ilona Sengers</title>
     <link rel="stylesheet" href="./css/style.css">
     <script async src="./js/loadPreferences.js"></script>
 </head>
@@ -17,10 +17,10 @@
             <button class="nav-button menu-button" aria-label="open or close main navigation">Menu</button>
             <nav class="header-nav">
                 <ul>
-                    <li class="header-nav-item"><a class="header-nav-link" href="">Home</a></li>
-                    <li class="header-nav-item"><a class="header-nav-link" href="">About me</a></li>
-                    <li class="header-nav-item"><a class="header-nav-link" href="">Gallery</a></li>
-                    <li class="header-nav-item"><a class="header-nav-link" href="">Coming next</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="#">Home</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="./pages/about.html">About me</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="./pages/gallery.html">Gallery</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="./pages/coming.html">Coming next</a></li>
                     <li class="header-nav-item">
                         <button class="menu-button accessibility-button" aria-label="open or close accessibility controls menu">
                             Accessibility Controls
@@ -45,11 +45,6 @@
                             <li>
                                 <button class="accessibility-toggle">
                                     High contrast<span class="accessibility-toggle-checkbox" aria-hidden="true"></span>
-                                </button>
-                            </li>
-                            <li class="dropdown-item">
-                                <button class="accessibility-toggle">
-                                    Hide artwork<span class="accessibility-toggle-checkbox" aria-hidden="true"></span>
                                 </button>
                             </li>
                         </menu>
@@ -80,33 +75,27 @@
         </div>
     </div>
     <div class="main-container">
-            <div class="gallery-container">
+            <div id="about" class="gallery-container">
                 <div class="gallery-item">
                     <div class="image">
-                        <img src="./img/ilona.png" alt="foto van ilona">
-                    </div>
-                    <div class="linkje">
-                        <a href="#">About me</a>
+                        <h2 class="heading-m">About me</h2>
+                        <img src="./img/ilonadevi.jpg" alt="foto van ilona">
                     </div>
                 </div>
             </div>
-            <div class="gallery-container">
+            <div id="gallery" class="gallery-container">
                 <div class="gallery-item">
                     <div class="image">
+                        <h2 class="heading-m">Gallery</h2>
                         <img src="./img/gallery.jpg" alt="foto van een gallery">
                     </div>
-                    <div class="linkje">
-                        <a href="#">Gallery</a>
-                    </div>
                 </div>
             </div>
-            <div class="gallery-container">
+            <div id="coming" class="gallery-container">
                 <div class="gallery-item">
                     <div class="image">
+                        <h2 class="heading-m">Coming up</h2>
                         <img src="./img/comingnext.jpg" alt="foto van vraagteken">
-                    </div>
-                    <div class="linkje">
-                        <a href="#">Coming next</a>
                     </div>
                 </div>
             </div>
