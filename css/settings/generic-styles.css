@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: 'Baskervville';
+    font-family: 'Baskervville',serif;
     font-size: 16px;
     scroll-behavior: smooth;
     transition: font-size 0.3s ease, filter 0.3s;
