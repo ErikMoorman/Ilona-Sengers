@@ -3,7 +3,9 @@
    grid-template-columns: 0fr 2fr;
    background-color: var(--background-color);
 }
-
+h2{
+    text-align: center;
+}
 .art-gallery{
     display: grid;
     grid-template-columns: repeat(3,1fr);
