@@ -18,9 +18,7 @@
 }
 
 @media (min-width: 40rem) {
-    .main-footer {
-        margin-top: 2rem;
-    }
+    
 
     .footer-container {
         flex-direction: row;

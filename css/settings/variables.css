@@ -15,9 +15,9 @@
 
     --text-color: var(--black);
     --text-color2: var(--white);
-    --link-color: var(--light-blue);
+    --link-color: var(--dark-grey);
     --link-visited-color: var(--dark-grey);
-    --link-hover-color: var(--blue);
+    --link-hover-color: var(--black-2);
     --link-focus-bg-color: var(--white);
     --link-focus-color: var(--black);
     --background-color: var(--white);

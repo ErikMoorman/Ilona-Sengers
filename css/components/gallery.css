@@ -1,0 +1,74 @@
+.artsection{
+   display: grid;
+   grid-template-columns: 0fr 2fr;
+   background-color: var(--background-color);
+}
+h2{
+    text-align: center;
+}
+.art-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 50rem;
+    margin-inline: auto;
+    
+}
+.art-gallery > .artworks {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    transition: scale 350ms ease, opacity 350ms linear;
+}
+.art-gallery:has(figure:hover) figure:not(:hover){
+    scale: .8;
+    opacity: .5;
+}
+figcaption {
+    visibility: hidden;
+}
+
+.art-gallery:has(figure:hover) figcaption{
+    visibility:visible;
+    }
+.art-gallery:has(figure:hover) figure:not(:hover) figcaption{
+        visibility: hidden;
+    }
+
+
+.art-gallery:has(figure:hover) figure{
+scale: 1.2;
+}
+
+.textsection{
+    align-self: start;
+   position: sticky;
+   margin-top: 10em;
+   top: 10em;
+   margin-left: 5em;
+   width: 75%;
+}
+
+main ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+} 
+main ol li{
+    list-style: none;
+    background-color: #eee;
+    padding: 12px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+main ol li.active{
+    background: darkgray;
+}
+.artworks.hide{
+    display: none;
+}

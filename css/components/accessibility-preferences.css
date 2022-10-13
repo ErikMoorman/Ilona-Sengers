@@ -21,7 +21,7 @@
     --nav-link-color: var(--white);
 }
 
-[data-darktheme='true'] .header-logo,
+[data-darktheme='true'] .header-logo, [data-darktheme='true'] figcaption,
 [data-darktheme='true'] .footer-image{
     filter: invert(1);
 }

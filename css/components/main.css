@@ -1,8 +1,9 @@
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    background-color: var(--background-color);
 }
-.gallery-container {
+.grid-container {
     cursor: pointer;
     position: relative;
     width: 33%;
@@ -10,7 +11,7 @@
 }
 
 
-.gallery-item {
+.grid-item {
 width: 90%;
 height: 15em;
 position: relative;
@@ -19,37 +20,37 @@ margin-top: 5%;
 margin-bottom: 5%;
 
 }
-.gallery-item .image {
+.grid-item .image {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.gallery-item .image img {
+.grid-item .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
 }
-.main-container:has(.gallery-item:hover) .gallery-item:not(:hover) {
+.main-container:has(.grid-item:hover) .grid-item:not(:hover) {
     scale: .7;
     opacity: .5;
 }
-.gallery-item {
+.grid-item {
     transition: scale 350ms ease, opacity 350ms linear;
 }
-.gallery-item .heading-m {
+.grid-item .heading-m {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 @media screen and (max-width: 992px) {
-    .gallery-container {
+    .grid-container {
       flex: 33%;
     }
   }
   @media screen and (max-width: 600px) {
-    .gallery-container {
+    .grid-container {
       flex: 100%;
     }
   }
