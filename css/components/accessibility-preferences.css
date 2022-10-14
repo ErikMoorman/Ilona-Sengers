@@ -16,13 +16,15 @@
 }
 
 [data-darktheme='true'] .main-header,
-[data-darktheme='true'] .main-footer {
+[data-darktheme='true'] .main-footer,
+[data-darktheme='true'] .transition-1 {
     --background-color: var(--black);
     --nav-link-color: var(--white);
 }
 
 [data-darktheme='true'] .header-logo, [data-darktheme='true'] figcaption,
-[data-darktheme='true'] .footer-image{
+[data-darktheme='true'] .footer-image,
+[data-darktheme='true'] .background{
     filter: invert(1);
 }
 

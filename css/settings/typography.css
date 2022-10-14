@@ -1,8 +1,8 @@
 .heading-xl {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-color);
-    margin: 2.5rem 0 1rem;
+    margin: 0 0 1rem;
     transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
@@ -114,9 +114,9 @@ p {
 
 @media (min-width: 40em) {
     .heading-xl {
-        font-size: 3rem;
+        font-size: 2rem;
 
-        margin: 3rem 0 2rem;
+        margin: 0 0 2rem;
     }
 
     .heading-l {
