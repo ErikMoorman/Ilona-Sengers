@@ -109,6 +109,7 @@ main ol li.active{
     padding:20px;
     background: var(--light-grey);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    
 }
 .side-panel-open .side-panel {
     display: initial;
