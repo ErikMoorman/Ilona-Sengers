@@ -23,3 +23,7 @@ for(let i = 0; i<list.length; i++){
 
     })
 }
+
+document.querySelector(".side-panel-toggle").addEventListener("click", () => {
+    document.querySelector(".panelwrapper").classList.toggle("side-panel-open");
+})

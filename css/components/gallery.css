@@ -48,7 +48,7 @@ scale: 1.2;
    position: sticky;
    margin-top: 10em;
    top: 10em;
-   margin-left: 5em;
+   margin-left: 1rem;
    width: 75%;
 }
 
@@ -71,4 +71,51 @@ main ol li.active{
 }
 .artworks.hide{
     display: none;
+}
+
+.panelwrapper{
+    display: flex;
+}
+.main{
+    flex-grow: 1;
+}
+.side-panel-toggle{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    color: white;
+    background: var(--grey);
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10em;
+    position: sticky;
+    top: 10em;
+}
+.side-panel-toggle:hover{
+    background: var(--dark-grey);
+}
+
+.sp-icon-open{
+    display: none !important;
+}
+.side-panel{
+    display: none;
+    width: 25%;
+    flex-shrink: 0;
+    padding:20px;
+    background: var(--light-grey);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+.side-panel-open .side-panel {
+    display: initial;
+}
+.side-panel-open .sp-icon-closed {
+    display: none !important;
+}
+.side-panel-open .sp-icon-open {
+    display: initial !important;
 }

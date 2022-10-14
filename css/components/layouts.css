@@ -8,7 +8,7 @@
     .artsection {
         grid-template-columns: 1fr;
     }
-    .textsection {
-      display: none;
+    .side-panel {
+      width: 75%;
     }
 }
