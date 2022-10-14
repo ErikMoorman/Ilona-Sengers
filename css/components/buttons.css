@@ -1,5 +1,5 @@
 button {
-    font-family: 'Karla';
+    font-family: 'Baskervville', serif;
     font-weight: 600;
     margin: 0;
     padding: 0;
@@ -25,65 +25,6 @@ button[aria-disabled='true'] {
     pointer-events: none;
 }
 
-.primary-button {
-    background-color: var(--light-blue);
-    color: var(--white);
-    box-shadow: 0 2px 0 var(--blue);
-}
-
-.primary-button:hover {
-    /* background-color: #1962a3; */
-}
-
-.secondary-button {
-    color: var(--black);
-    background-color: var(--light-grey);
-    box-shadow: 0 2px 0 #929191;
-}
-
-.secondary-button:hover {
-    filter: invert(0.075);
-}
-
-.warning-button {
-    color: var(--white);
-    background-color: var(--red);
-    box-shadow: 0 2px 0 #55150b;
-}
-
-.warning-button:hover {
-    background-color: #aa2a16;
-}
-
-.filter-button {
-    color: var(--purple);
-    border: 1.5px solid var(--purple);
-    background: none;
-    box-shadow: 0.1em 0.1em 0 var(--purple);
-    transform: translate(-0.1em, -0.1em);
-    transition: transform 0.2s, box-shadow 0.2s;
-    width: auto;
-}
-
-.filter-button:focus {
-    box-shadow: 0 0 0 var(--purple);
-    transform: translate(0, 0);
-    outline: 0;
-    border-style: dashed;
-}
-
-.filter-button:hover {
-    box-shadow: 0 0 0 var(--purple);
-    transform: translate(0, 0);
-}
-
-.filter-button-active {
-    box-shadow: 0 0 0 var(--purple);
-    transform: translate(0, 0);
-    background-color: var(--purple);
-    color: var(--background-color);
-}
-
 .menu-button {
     width: auto;
     color: var(--text-color);
@@ -92,7 +33,7 @@ button[aria-disabled='true'] {
 }
 
 .menu-button:hover {
-    /* background-color: var(--menu-button-hover); */
+    background-color: var(--menu-button-hover);
 }
 
 .menu-button:focus {
