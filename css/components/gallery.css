@@ -44,12 +44,14 @@ scale: 1.2;
 }
 
 .textsection{
-    align-self: start;
-   position: sticky;
-   margin-top: 10em;
-   top: 10em;
-   margin-left: 1rem;
-   width: 75%;
+   align-self: start;
+   width: 100%;
+   padding-top: 20px;
+   padding-right: 20px;
+   padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
 }
 
 main ol{
@@ -65,6 +67,7 @@ main ol li{
     padding: 12px 20px;
     margin: 5px;
     cursor: pointer;
+    font-size: 1.19rem;
 }
 main ol li.active{
     background: darkgray;
@@ -73,50 +76,3 @@ main ol li.active{
     display: none;
 }
 
-.panelwrapper{
-    display: flex;
-}
-.main{
-    flex-grow: 1;
-}
-.side-panel-toggle{
-    width: 40px;
-    height: 40px;
-    flex-shrink: 0;
-    display: grid;
-    place-items: center;
-    color: white;
-    background: var(--grey);
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-    outline: none;
-    cursor: pointer;
-    margin-top: 10em;
-    position: sticky;
-    top: 10em;
-}
-.side-panel-toggle:hover{
-    background: var(--dark-grey);
-}
-
-.sp-icon-open{
-    display: none !important;
-}
-.side-panel{
-    display: none;
-    width: 25%;
-    flex-shrink: 0;
-    padding:20px;
-    background: var(--light-grey);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
-    
-}
-.side-panel-open .side-panel {
-    display: initial;
-}
-.side-panel-open .sp-icon-closed {
-    display: none !important;
-}
-.side-panel-open .sp-icon-open {
-    display: initial !important;
-}

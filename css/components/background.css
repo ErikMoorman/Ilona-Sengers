@@ -21,6 +21,7 @@
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     background: url(../../img/back.png);
+    background-clip: text;
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
@@ -28,7 +29,7 @@
 
 @keyframes back{
     100%{
-        background-position:2000px 0;
+        background-position:1000px 0;
     }
 }
 
@@ -49,7 +50,9 @@
     margin-right: 20px;
     margin-bottom: 20px;
     border: 2px solid #fff;
-    width: 12rem;
+    width: 13rem;
+    text-align: center;
+    font-size: 22px;
 }
 .text-box a:hover{
     background-color:hsla(0, 100%, 100%, 0.3);;
@@ -67,5 +70,6 @@
         font-size: 3rem;
         line-height: 4rem;
         margin: 0;
+
     }
 }

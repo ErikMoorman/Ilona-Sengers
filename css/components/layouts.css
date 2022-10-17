@@ -4,11 +4,32 @@
     padding: 1.5rem;
     margin: 0 auto;
 }
-@media (max-width: 50rem) {
-    .artsection {
-        grid-template-columns: 1fr;
+@media (max-width: 30rem) {
+    .art-gallery {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .side-panel {
-      width: 75%;
+    
+    .art-gallery:has(figure:hover) figure{
+        scale: 1;
+        }
+}
+@media(min-width:30rem) and (max-width:40rem){
+
+    .art-gallery {
+        grid-template-columns: repeat(2, 1fr);
     }
+    
+    .art-gallery:has(figure:hover) figure{
+        scale: 1;
+        }
+}
+@media (min-width:60rem) {
+
+    .art-gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .art-gallery:has(figure:hover) figure{
+        scale: 1,3;
+        }
 }
