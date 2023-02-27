@@ -20,13 +20,24 @@
 }
 
 @media screen and (max-width: 72.999rem) {
-.item1 {
-    flex-direction: column;
-}        
-.item1 img, .text{
-padding: 1rem;
-}
-.image, .text{
-    width: 100%;
-}
+    .item1 {
+        flex-direction: column;
+    }        
+    .item1 img, .text{
+        padding: 1rem;
     }
+    .image, .text{
+    width: 100%;
+    }
+}
+@media screen and (min-width: 60rem){
+    .item1 {
+        flex-direction: row;
+    }        
+    .item1 img, .text{
+        padding: 3rem;
+    }
+    .image, .text{
+    width: 50%;
+    }
+}
