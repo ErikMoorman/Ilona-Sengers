@@ -24,6 +24,40 @@
             </nav>
         </div>
     </header>
+<main class="contactpage">
+        <div class="contacttext">
+            <h2 class="contacttitel">Vragen?</h2>
+            <p class="contactuitleg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor natus numquam cum, iusto fugit quod consectetur itaque dolorem dolores veniam reiciendis! Doloremque deserunt amet repellendus, dolorum natus expedita odit! Delectus!</p>
+        </div>
+        <div class="fcf-body">
+            <div id="fcf-form">
+            <h3 class="fcf-h3">Stuur mij een bericht</h3>
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="../php/contact-form-process.php">
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Uw naam</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Uw email adres</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Uw bericht</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Verstuur</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </main>
     <footer class="main-footer">
         <div class="footer-container width-container">
             <p class="text-small">© Copyright 2023 - Erik Moorman</p>
