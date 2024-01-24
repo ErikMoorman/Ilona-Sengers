@@ -34,7 +34,7 @@
         }
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 40rem) {
     .about article {
         display: block;
     }
