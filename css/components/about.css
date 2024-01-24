@@ -1,37 +1,23 @@
-.about div article {
+.about article {
     display: flex;
 }
 .about img {
-    width: 15vw;
+    width: 50%;
+    margin: auto;
 }
-.about div article section {
-    width: 45vw;
-    margin: 0 0 0 2em;
+.about div p{
+    text-align: center;
 }
-.about div article div {
-    width: 45vw;
+div .ilona {
+    margin: 2em auto auto auto;
 }
-.about div article .ilona {
+.ilona {
+    width: 90%;
     border-radius: 50%;
     margin: 6em auto;
-    width: 25vw;
-}
-.about div article section div {
-display: flex;
-}
-.voorbeeld div div {
-    flex-direction: column;
   
 }
-.voorbeeld div {
-    display: flex;
-    align-items: center;}
-.voorbeelden h2{
-    margin: 0 0 1em 0;
-}
-.about h2{
-    font-size: 1.19rem;
-}
-.voorbeelden {
-    margin: -2em 0 0 0;
+.about article section {
+    width: 45vw;
+    margin:2em;
 }
