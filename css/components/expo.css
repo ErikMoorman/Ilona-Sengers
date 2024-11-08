@@ -1,9 +1,6 @@
-.expo article {
-    width: 50%;
-    }
+
 .expo img {
     display: block;
-    
     width: 25%;
 }
 .expo {
@@ -11,13 +8,14 @@
     width: 100vw;
     
 }
-#expo1 {
+.expo section {
     margin: 0 3em;
+}
+#expo1 {
     padding: 2em;
     background-color: rgba(200, 197, 197, 0.237);
 }
 #expo2 {
-    margin: 0 3em 0 0;
     padding: 2em;
     background-color: rgba(200, 197, 197, 0.237);
 }
