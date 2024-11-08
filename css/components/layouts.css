@@ -36,7 +36,9 @@
         }
 }
 @media (min-width:60rem) {
-
+    .about {
+        display: flex;
+    }
     .art-gallery {
         grid-template-columns: repeat(4, 1fr);
     }
