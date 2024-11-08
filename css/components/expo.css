@@ -1,0 +1,26 @@
+.expo article {
+    width: 50%;
+    }
+.expo img {
+    display: block;
+    
+    width: 25%;
+}
+.expo {
+    display: flex;
+    width: 100vw;
+    
+}
+#expo1 {
+    margin: 0 3em;
+    padding: 2em;
+    background-color: rgba(200, 197, 197, 0.237);
+}
+#expo2 {
+    margin: 0 3em 0 0;
+    padding: 2em;
+    background-color: rgba(200, 197, 197, 0.237);
+}
+.expo h2{
+    margin: 1em;
+}
