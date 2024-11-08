@@ -5,8 +5,10 @@
 }
 .expo {
     display: flex;
+    width: 100vw; 
+}
+.expo article {
     width: 100vw;
-    
 }
 .expo section {
     margin: 0 3em;

@@ -16,11 +16,13 @@
         display: flex;
         flex-direction: column;
     }
-    .expo article {
-        width: 100vw;
+    #expo1 {
+        width: 90vw;
+        margin: 0 1em;
     }
     #expo2 {
-        margin: 0 3em 0 3em;
+        width: 90vw;
+        margin: 0 1em 0 1em;
     }
 }
 @media(min-width:30rem) and (max-width:40rem){
