@@ -4,11 +4,11 @@
     width: 25%;
 }
 .expo {
-    display: flex;
     width: 100vw; 
 }
 .expo article {
     width: 100vw;
+    
 }
 .expo section {
     margin: 0 3em;
@@ -16,10 +16,22 @@
 #expo1 {
     padding: 2em;
     background-color: rgba(200, 197, 197, 0.237);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#expo1 div {
+    width: 50%;   
+}
+#expo2 div {
+    width: 50%;   
 }
 #expo2 {
     padding: 2em;
     background-color: rgba(200, 197, 197, 0.237);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
 }
 .expo h2{
     margin: 1em;
