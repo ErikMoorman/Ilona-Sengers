@@ -3,7 +3,7 @@
     height: 75vh;
     background-image: linear-gradient(rgba(0,0,0,0.5), transparent),url(../../img/hero-img/ilonahero2.jpg);
     background-size: cover;
-    background-position: center ;
+    background-position: right ;
     padding: 0 8%;
     position: relative;
 }
