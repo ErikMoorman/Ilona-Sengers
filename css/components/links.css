@@ -23,4 +23,6 @@ ul a:focus {
     a {
         font-size: 1.19rem;
     }
+    img {
+        width: 25%;
 }
