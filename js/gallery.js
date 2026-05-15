@@ -23,3 +23,31 @@ for(let i = 0; i<list.length; i++){
 
     })
 }
+// INITIAL LOAD → show only 2026
+const filterButtons = document.querySelectorAll(".years");
+const artworks = document.querySelectorAll(".artworks");
+
+function filterGallery(filter) {
+  artworks.forEach(item => {
+    if (filter === "all" || item.dataset.item === filter) {
+      item.style.display = "block";
+    } else {
+      item.style.display = "none";
+    }
+  });
+}
+
+// Click events
+filterButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    document
+      .querySelector(".years.active")
+      ?.classList.remove("active");
+
+    button.classList.add("active");
+
+    filterGallery(button.dataset.filter);
+  });
+});
+
+filterGallery("2026");
